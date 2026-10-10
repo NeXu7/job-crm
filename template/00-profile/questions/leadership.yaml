@@ -1,0 +1,89 @@
+# Банк вопросов к интервью, категория «leadership». Редактируется в CRM (Интервью → Вопросы) и агентом.
+# answers — варианты ответа (roles — для каких треков; пусто — для любого). status: draft | ready.
+# Истории — по id из 00-profile/stories.yaml, факты — по id из банка фактов. Новые цифры — только с твоих слов.
+
+questions:
+  - id: leadership.style
+    text: How would you describe your leadership style?
+    ru: Как бы ты описал свой стиль руководства?
+    priority: medium
+    tags: [management]
+    note: Не абстракция, а два-три принципа, у каждого — пример из практики.
+  - id: leadership.disagree-manager
+    text: Tell me about a time you disagreed with your manager or leadership.
+    ru: Расскажи, как ты не соглашался с руководителем.
+    priority: medium
+    competency: conflict
+  - id: leadership.cross-functional
+    text: How do you work with other functions — product, design, sales, customers?
+    ru: Как ты работаешь со смежными функциями — продуктом, дизайном, продажами, клиентами?
+    priority: medium
+    tags: [client]
+    competency: client
+  - id: leadership.managing-up
+    text: How do you communicate progress and bad news to leadership?
+    ru: Как ты сообщаешь руководству о прогрессе и о плохих новостях?
+    priority: medium
+  - id: leadership.first-90-days
+    text: What would you do in your first 90 days?
+    ru: Что ты сделаешь в первые 90 дней?
+    priority: medium
+    note: Отвечается под вакансию — используй «Почему они» и требования из разбора.
+  - id: leadership.underperformer
+    text: Tell me about a time you dealt with an underperforming team member.
+    ru: Расскажи, как ты работал с сотрудником, который не справлялся.
+    priority: low
+    tags: [management]
+    competency: hard-talk
+  - id: leadership.hard-feedback
+    text: How do you give difficult feedback? Give an example.
+    ru: Как ты даёшь жёсткую обратную связь? Пример.
+    priority: low
+    tags: [management]
+    competency: hard-talk
+  - id: leadership.let-someone-go
+    text: Have you had to let someone go? How did you handle it?
+    ru: Приходилось ли тебе увольнять? Как ты это сделал?
+    priority: low
+    tags: [management]
+    competency: hard-talk
+  - id: leadership.hiring
+    text: How do you hire? Tell me about a hire you're proud of — or one that didn't work out.
+    ru: Как ты нанимаешь? Удачный наём — или неудачный.
+    priority: low
+    tags: [hiring, management]
+    competency: team
+  - id: leadership.grow-people
+    text: How do you grow people on your team? Give a concrete example.
+    ru: Как ты растишь людей? Конкретный пример.
+    priority: low
+    tags: [mentoring, management]
+    competency: people
+    note: "Нужен конкретный человек: где он был и где стал благодаря тебе."
+  - id: leadership.delegation
+    text: How do you decide what to do yourself and what to delegate?
+    ru: Как ты решаешь, что делать самому, а что делегировать?
+    priority: low
+    tags: [management]
+  - id: leadership.remote-team
+    text: How do you lead a team distributed across time zones? How much is async?
+    ru: Как ты руководишь распределённой командой? Сколько асинхронно?
+    priority: low
+    tags: [management]
+  - id: leadership.org-design
+    text: How would you build a team of ten from scratch? Which roles would you hire first?
+    ru: Как бы ты собрал команду из десяти человек с нуля? Кого нанял бы первым?
+    priority: low
+    tags: [hiring, management]
+    competency: team
+  - id: leadership.attract-talent
+    text: How do you attract strong people when you can't compete on salary or brand?
+    ru: Как привлечь сильных людей, если не можешь конкурировать зарплатой или брендом?
+    priority: low
+    tags: [hiring]
+    competency: team
+  - id: leadership.motivation
+    text: How do you keep a team motivated through a hard period?
+    ru: Как ты держишь мотивацию команды в тяжёлый период?
+    priority: low
+    tags: [management]

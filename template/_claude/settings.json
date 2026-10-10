@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "env": {
+    "CLAUDE_CODE_SUBAGENT_MODEL": "sonnet"
+  },
+  "permissions": {
+    "allow": [
+      "Bash(npm --prefix app run -s bank -- stats)",
+      "Bash(npm --prefix app run -s bank -- gaps:*)",
+      "Bash(npm --prefix app run -s bank -- show:*)",
+      "Bash(npm --prefix app run -s bank -- ops)",
+      "Bash(npm --prefix app run check)",
+      "Bash(npm --prefix app run -s check)"
+    ]
+  }
+}

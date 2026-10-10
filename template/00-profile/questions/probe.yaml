@@ -1,0 +1,83 @@
+# Банк вопросов к интервью, категория «probe». Редактируется в CRM (Интервью → Вопросы) и агентом.
+# answers — варианты ответа (roles — для каких треков; пусто — для любого). status: draft | ready.
+# Истории — по id из 00-profile/stories.yaml, факты — по id из банка фактов. Новые цифры — только с твоих слов.
+
+questions:
+  - id: probe.weakness
+    text: What's your biggest weakness?
+    ru: Какая твоя главная слабость?
+    variants: [What would your previous manager say you need to improve?]
+    priority: medium
+    note: "Опора — слабые места в «Интервью» → «Сильные и слабые»: назови настоящую и покажи, что с ней делаешь. Не «перфекционизм»."
+  - id: probe.no-direct-experience
+    text: You haven't held exactly this role before. Why do you think you can do it?
+    ru: У тебя не было ровно такой роли — почему ты справишься?
+    variants: [This would be a step up for you — what makes you ready?]
+    priority: medium
+    note: Не спорь с фактом. Покажи, где ты уже делал ту же работу без титула, — с фактом или историей.
+  - id: probe.missing-skill
+    text: The role requires something that isn't on your resume. How would you close that gap?
+    ru: В вакансии есть требование, которого нет в твоём резюме. Как закроешь этот пробел?
+    priority: medium
+    note: "Конкретное требование берётся из вакансии — Claude подставит его при подготовке. Ответ: что у тебя уже близко, как и за какой срок доберёшь остальное."
+  - id: probe.own-decisions
+    text: Which decisions were actually yours, and which were the team’s or your manager’s?
+    ru: Какие решения были именно твоими, а какие — команды или руководителя?
+    variants:
+      - If I called your former manager, which decisions would they credit to you?
+      - What exactly did you do yourself?
+    priority: medium
+    note: "Проверка на «мы»: назови решения, которые принимал сам, и чем за них отвечал."
+  - id: probe.number-claim
+    text: You mention a number on your resume — how exactly was it measured?
+    ru: В резюме у тебя есть цифра — как именно её измеряли?
+    priority: medium
+    note: "Каждую цифру в резюме могут попросить объяснить: откуда она взялась, с чем её сравнивали и за какой период. Не можешь объяснить — убери цифру из резюме."
+  - id: probe.cv-gap
+    text: There's a gap in your resume. What were you doing during that time?
+    ru: В резюме есть перерыв — чем ты занимался в это время?
+    priority: low
+    note: "Коротко и спокойно: что делал, чему научился, почему сейчас готов. Без оправданий. Перерыва нет — удали вопрос."
+  - id: probe.short-tenures
+    text: You've changed jobs fairly often. Why — and why would you stay with us?
+    ru: Ты часто менял работу — почему, и почему останешься у нас?
+    variants: [How do we know you’ll stay?]
+    priority: low
+    note: "Покажи логику переходов: каждый шаг — ради чего. И что сейчас ищешь место надолго. Опора — нарратив в positioning.md §7."
+  - id: probe.domain-switch
+    text: You've worked across several industries. What ties your path together?
+    ru: Ты работал в разных отраслях — что связывает твой путь?
+    priority: low
+    note: "Найди общую нить: тип задач или навык, который рос от места к месту."
+  - id: probe.team-size
+    text: What's the largest team you've led, and how many direct reports did you have?
+    ru: Какую самую большую команду ты вёл и сколько у тебя было прямых подчинённых?
+    priority: low
+    tags: [management]
+    note: "Не преувеличивай: цифра должна совпадать с резюме. Если не руководил — скажи, где вёл людей без формальной власти."
+  - id: probe.overqualified
+    text: Aren't you overqualified for this role?
+    ru: Не слишком ли ты квалифицирован для этой роли?
+    priority: low
+    note: Объясни, почему эта роль — осознанный выбор, а не шаг назад и не временная остановка.
+  - id: probe.remote-experience
+    text: Have you worked in an international or fully remote team before?
+    ru: Был ли у тебя опыт в международной или полностью удалённой команде?
+    priority: low
+    note: "Опора — конкретные примеры: с какими командами работал, как были устроены переписка и созвоны, как договаривались без общего офиса."
+  - id: probe.let-go
+    text: Have you ever been let go? What happened?
+    ru: Тебя когда-нибудь увольняли? Что произошло?
+    priority: low
+    note: "Честно и коротко: что случилось, какой вывод сделал, что изменил. Без обвинений."
+  - id: probe.own-company
+    text: What happens to your own company or side project if you join us?
+    ru: Что будет с твоей компанией или сайд-проектом, если ты выйдешь к нам?
+    variants: [Will you keep working on it on the side?]
+    priority: low
+    note: "Если у тебя есть своя компания или сайд-проект: заранее реши, что с ним будет и сколько времени он займёт, и скажи это прямо. Неактуально — удали вопрос."
+  - id: probe.founder-to-employee
+    text: After running your own company, how will you feel reporting to someone else?
+    ru: После своей компании — как тебе будет в подчинении?
+    priority: low
+    note: "Если у тебя была своя компания: расскажи, что тебя привлекает именно в этой роли и как ты строишь работу с руководителем. Неактуально — удали вопрос."

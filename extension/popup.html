@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<style>
+  :root { color-scheme: light dark; --accent: #2944b5; }
+  body { font: 13px/1.45 system-ui, -apple-system, sans-serif; margin: 0; padding: 14px; width: 300px; }
+  h1 { font-size: 14px; margin: 0 0 8px; }
+  p { margin: 6px 0; }
+  button, a.btn { display: inline-block; border: 0; border-radius: 6px; padding: 8px 12px; background: var(--accent); color: #fff; font: inherit; font-weight: 600; cursor: pointer; text-decoration: none; }
+  button[disabled] { opacity: .5; cursor: default; }
+  .muted { color: #6c7382; font-size: 12px; }
+  .err { color: #b0261b; }
+  .ok { color: #17703f; }
+  label.port { display: flex; align-items: center; gap: 6px; margin-top: 10px; }
+  label.port input { width: 64px; font: inherit; padding: 2px 4px; }
+</style>
+</head>
+<body>
+  <h1>Сохранить вакансию в CRM</h1>
+  <p class="muted" id="where"></p>
+  <button id="save">Сохранить страницу</button>
+  <p id="out"></p>
+  <p class="muted">Нужен запущенный сервер CRM. Горячая клавиша: Alt+Shift+S.</p>
+  <label class="port muted">Порт CRM: <input id="port" inputmode="numeric" maxlength="5"> (по умолчанию 4317)</label>
+  <script src="popup.js"></script>
+</body>
+</html>

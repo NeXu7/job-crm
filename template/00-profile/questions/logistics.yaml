@@ -1,0 +1,45 @@
+# Банк вопросов к интервью, категория «logistics». Редактируется в CRM (Интервью → Вопросы) и агентом.
+# answers — варианты ответа (roles — для каких треков; пусто — для любого). status: draft | ready.
+# Истории — по id из 00-profile/stories.yaml, факты — по id из банка фактов. Новые цифры — только с твоих слов.
+
+questions:
+  - id: logistics.work-authorization
+    text: Where are you based, and can we hire you there?
+    ru: Где ты находишься и можем ли мы тебя нанять?
+    variants: [Do you need visa sponsorship?, What's your work authorization?]
+    priority: high
+    note: "Ответь сразу и конкретно: где живёшь, как тебя можно нанять и нужна ли виза. Опора — context в 00-profile/profile.yaml и positioning.md §9."
+  - id: logistics.salary
+    text: What are your salary expectations?
+    ru: Какие у тебя ожидания по зарплате?
+    variants: [What's your current compensation?]
+    priority: high
+    note: Знай свою нижнюю границу и целевую вилку заранее (positioning.md §9). Называй вилку, а не точку; если можно — сначала спроси их вилку. Уточни, нетто или гросс и в какой валюте.
+  - id: logistics.start-date
+    text: When can you start? What's your notice period?
+    ru: Когда можешь выйти?
+    priority: high
+    note: Назови конкретную дату или срок уведомления — так же, как текущему работодателю.
+  - id: logistics.timezone
+    text: Our team is in a different time zone. How many overlapping hours can you do?
+    ru: Сколько часов пересечения с командой ты можешь дать?
+    priority: medium
+    note: "Опора — context в профиле: таймзона и окна для созвонов. Назови конкретные часы."
+  - id: logistics.other-processes
+    text: Are you interviewing elsewhere? Where are you in other processes?
+    ru: Ты сейчас в других процессах?
+    priority: medium
+    note: "Честно и без давления: есть ли процессы и на какой стадии. Оффер на руках — повод попросить ускориться."
+  - id: logistics.english
+    text: How comfortable are you working in English day to day?
+    ru: Насколько комфортно работать на английском каждый день?
+    priority: medium
+  - id: logistics.contract
+    text: Are you open to a contractor setup or an employer of record (EoR)?
+    ru: Подходит ли контракт или EoR?
+    priority: low
+    note: Знай заранее, какие форматы тебе подходят и что это значит для налогов и денег.
+  - id: logistics.relocation
+    text: Would you be open to relocating or working from the office?
+    ru: Готов ли ты к переезду или работе из офиса?
+    priority: low

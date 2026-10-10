@@ -1,0 +1,58 @@
+# Банк вопросов к интервью, категория «ai». Редактируется в CRM (Интервью → Вопросы) и агентом.
+# answers — варианты ответа (roles — для каких треков; пусто — для любого). status: draft | ready.
+# Истории — по id из 00-profile/stories.yaml, факты — по id из банка фактов. Новые цифры — только с твоих слов.
+
+questions:
+  - id: ai.project-walkthrough
+    text: Walk me through a recent project end to end — the goal, your part, the hard decisions, the result.
+    ru: Расскажи о недавнем проекте от начала до конца — цель, твоя часть, сложные решения, результат.
+    priority: medium
+    note: Выбери проект, где твой вклад виден и есть результат с цифрой. Опора — история и факты из банка.
+  - id: ai.hardest-problem
+    text: What's the hardest problem you've solved in your field? What made it hard?
+    ru: Какая самая сложная задача в твоей области, которую ты решил? Чем она была сложной?
+    priority: medium
+  - id: ai.tools
+    text: Which tools and methods do you rely on most, and why those?
+    ru: Какие инструменты и методы для тебя основные и почему именно они?
+    priority: low
+  - id: ai.quality-check
+    text: How do you make sure your work is right before it goes out?
+    ru: Как ты проверяешь, что работа сделана правильно, до того как она уйдёт дальше?
+    priority: low
+    tags: [delivery]
+  - id: ai.estimates
+    text: How do you estimate how long a piece of work will take — and what do you do when you're wrong?
+    ru: Как ты оцениваешь сроки работы и что делаешь, если ошибся?
+    priority: low
+    tags: [delivery]
+  - id: ai.explain-simply
+    text: Explain something complex from your field to someone outside it.
+    ru: Объясни что-нибудь сложное из своей области человеку не из неё.
+    priority: low
+  - id: ai.incident
+    text: Tell me about a production incident you handled. What did you change afterwards?
+    ru: Расскажи об инциденте в проде, который ты разбирал. Что изменил после?
+    priority: low
+    tags: [tech]
+    competency: ownership
+  - id: ai.our-case
+    text: Here's a problem from our work. How would you approach it, and how would you know it worked?
+    ru: Вот задача из нашей работы. Как бы ты к ней подошёл и как поймёшь, что получилось?
+    priority: low
+    note: Кейс берётся из вакансии — Claude подберёт его при подготовке к конкретной вакансии.
+  - id: ai.keep-up
+    text: How do you keep up with your field?
+    ru: Как ты следишь за своей областью?
+    priority: low
+  - id: ai.use-at-work
+    text: How do you use AI tools in your own day-to-day work?
+    ru: Как ты сам используешь AI-инструменты в работе?
+    priority: medium
+    tags: [ai]
+    note: "Конкретно: какие инструменты, на каких задачах, что это дало и где ты им не доверяешь."
+  - id: ai.ai-in-role
+    text: How do you think AI will change this kind of role over the next few years?
+    ru: Как, по-твоему, AI изменит такую роль в ближайшие годы?
+    priority: low
+    tags: [ai]

@@ -1,0 +1,95 @@
+# Банк вопросов к интервью, категория «behavioral». Редактируется в CRM (Интервью → Вопросы) и агентом.
+# answers — варианты ответа (roles — для каких треков; пусто — для любого). status: draft | ready.
+# Истории — по id из 00-profile/stories.yaml, факты — по id из банка фактов. Новые цифры — только с твоих слов.
+
+questions:
+  - id: behavioral.conflict
+    text: Tell me about a time you had a conflict with a colleague or stakeholder. How did you resolve it?
+    ru: Расскажи о конфликте с коллегой или стейкхолдером и как ты его разрешил.
+    variants: [Tell me about a disagreement within your team.]
+    priority: high
+    competency: conflict
+    note: Нужен реальный конфликт — с коллегой, заказчиком, внутри команды — и как он разрешился. «У нас не было конфликтов» — худший из возможных ответов.
+  - id: behavioral.failure
+    text: Tell me about a time you failed.
+    ru: Расскажи о своём провале.
+    variants: [Tell me about a mistake you made., Tell me about a project that didn't go as planned.]
+    priority: high
+    competency: failure
+    note: Нужна история, где что-то реально не получилось, были последствия и есть честный разбор причины. Не «провал», который на деле успех.
+  - id: behavioral.influence
+    text: Tell me about a time you influenced a decision without formal authority.
+    ru: Расскажи, как ты повлиял на решение без формальной власти.
+    priority: high
+    competency: influence
+  - id: behavioral.data-changed-mind
+    text: Tell me about a time data made you change your mind.
+    ru: Приведи пример, когда данные заставили тебя изменить решение.
+    priority: high
+    competency: data-decision
+  - id: behavioral.prioritization
+    text: Tell me about a hard prioritization call or trade-off you made.
+    ru: Расскажи о сложном решении по приоритетам или компромиссе.
+    variants: [How do you prioritize when everything is important?]
+    priority: high
+    competency: prioritization
+  - id: behavioral.proud-project
+    text: Tell me about a project you're most proud of.
+    ru: Расскажи о проекте, которым гордишься.
+    priority: high
+    note: Выбери проект, который ближе всего к роли, а не самый старый или самый большой. Твоя роль, результат в цифрах, компромисс.
+  - id: behavioral.unpopular-decision
+    text: Tell me about a decision you made that went against the consensus.
+    ru: Расскажи о непопулярном решении, которое ты принял вопреки мнению большинства.
+    priority: medium
+    competency: tech-choice
+  - id: behavioral.tech-decision
+    text: Tell me about a technical decision where you had to choose between several options.
+    ru: Расскажи о техническом решении, где ты выбирал из нескольких вариантов.
+    priority: medium
+    tags: [architecture]
+    competency: tech-choice
+  - id: behavioral.measure-success
+    text: How do you measure the success of a project? Give an example.
+    ru: Как ты измеряешь успех проекта? Пример.
+    priority: medium
+    tags: [roi]
+    competency: roi
+  - id: behavioral.difficult-customer
+    text: Tell me about a difficult customer situation and how you handled it.
+    ru: Расскажи о сложной ситуации с клиентом или заказчиком.
+    priority: medium
+    tags: [client]
+    competency: client
+  - id: behavioral.ambiguity
+    text: Tell me about a time you had to make progress with very unclear requirements.
+    ru: Расскажи, как ты двигался вперёд при очень неясной постановке.
+    priority: medium
+    competency: ambiguity
+  - id: behavioral.ownership
+    text: Tell me about a time you took ownership of something outside your scope.
+    ru: Расскажи, как ты взял на себя то, что было вне твоей зоны.
+    priority: medium
+    competency: ownership
+  - id: behavioral.deadline
+    text: Tell me about a time you had to deliver under a very tight deadline.
+    ru: Расскажи о сдаче в очень сжатые сроки.
+    priority: medium
+    tags: [delivery]
+    competency: prioritization
+  - id: behavioral.process-change
+    text: Tell me about a time you introduced a new process or tool to a team.
+    ru: Расскажи, как ты внедрял новый процесс или инструмент в команду.
+    priority: medium
+    tags: [process]
+    competency: influence
+  - id: behavioral.feedback
+    text: Tell me about a time you received critical feedback. What did you do with it?
+    ru: Расскажи о жёсткой обратной связи, которую ты получил, и что ты с ней сделал.
+    priority: medium
+    competency: failure
+  - id: behavioral.learn-fast
+    text: Tell me about a time you had to learn something new very quickly.
+    ru: Расскажи, как тебе пришлось очень быстро разобраться в новой области.
+    priority: medium
+    competency: ambiguity

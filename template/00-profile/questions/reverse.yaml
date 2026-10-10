@@ -1,0 +1,49 @@
+# Банк вопросов к интервью, категория «reverse». Редактируется в CRM (Интервью → Вопросы) и агентом.
+# answers — варианты ответа (roles — для каких треков; пусто — для любого). status: draft | ready.
+# Истории — по id из 00-profile/stories.yaml, факты — по id из банка фактов. Новые цифры — только с твоих слов.
+
+questions:
+  - id: reverse.success-6-months
+    text: What would success look like in this role after six months — in terms you actually measure?
+    ru: Как будет выглядеть успех на этой позиции через 6 месяцев — в терминах, которые вы сами измеряете?
+    priority: high
+  - id: reverse.biggest-challenge
+    text: What is the biggest challenge the team is facing right now?
+    ru: Какая сейчас самая большая проблема у команды?
+    priority: high
+  - id: reverse.next-steps
+    text: What are the next steps in the process, and when should I expect to hear back?
+    ru: Какие следующие шаги в процессе и когда ждать ответа?
+    priority: high
+  - id: reverse.why-open
+    text: Why is this role open now?
+    ru: Почему эта позиция открыта именно сейчас?
+    priority: medium
+  - id: reverse.team
+    text: Who would I work with most closely, and how is the team structured?
+    ru: С кем я буду работать теснее всего и как устроена команда?
+    priority: medium
+  - id: reverse.boundaries
+    text: Where is the boundary of responsibility between this role and the neighbouring teams?
+    ru: Где проходит граница ответственности между этой ролью и соседними командами?
+    priority: medium
+  - id: reverse.disagreement
+    text: How are decisions made when there's no agreement?
+    ru: Как принимаются решения, по которым нет согласия?
+    priority: medium
+  - id: reverse.timezones
+    text: How is the team distributed across time zones, and how many synchronous hours are expected?
+    ru: Как распределена команда по часовым поясам и сколько синхронных часов ожидается?
+    priority: low
+  - id: reverse.onboarding
+    text: What does onboarding look like in the first few weeks?
+    ru: Как устроен онбординг в первые недели?
+    priority: low
+  - id: reverse.recent-change
+    text: What has changed in the team or the company over the last year?
+    ru: Что изменилось в команде или компании за последний год?
+    priority: low
+  - id: reverse.churn
+    text: What most often causes customers to churn?
+    ru: Что чаще всего становится причиной оттока клиентов?
+    priority: low

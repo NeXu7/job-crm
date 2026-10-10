@@ -1,0 +1,14 @@
+# ОС
+.DS_Store
+
+# Код Job CRM: симлинк на отдельный репозиторий приложения
+/app
+
+# PDF-кеш: собирается заново из lock-файлов
+04-resume/build/
+
+# Скриншоты захваченных страниц: большие, восстанавливаются из page.html
+02-pipeline/applications/*/capture/*.png
+
+# Claude Code: личные разрешения
+.claude/settings.local.json

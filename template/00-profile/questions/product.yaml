@@ -1,0 +1,90 @@
+# Банк вопросов к интервью, категория «product». Редактируется в CRM (Интервью → Вопросы) и агентом.
+# answers — варианты ответа (roles — для каких треков; пусто — для любого). status: draft | ready.
+# Истории — по id из 00-profile/stories.yaml, факты — по id из банка фактов. Новые цифры — только с твоих слов.
+
+questions:
+  - id: product.better-than-before
+    text: How do you know a feature or project actually works better than what was there before?
+    ru: Как понять, что фича или проект работает лучше того, что было до него?
+    variants: [What's your baseline when you evaluate a change?]
+    priority: medium
+    tags: [roi, experiments]
+  - id: product.prioritize-roadmap
+    text: How do you prioritize a roadmap or a backlog?
+    ru: Как ты приоритизируешь роадмап или бэклог?
+    priority: medium
+    tags: [product]
+  - id: product.speed-vs-quality
+    text: How do you balance shipping fast against quality and technical debt?
+    ru: Как ты балансируешь скорость выпуска, качество и техдолг?
+    priority: medium
+    tags: [delivery]
+  - id: product.what-to-build
+    text: How do you decide what's worth building — and what isn't?
+    ru: Как ты решаешь, что стоит делать, а что нет?
+    priority: medium
+    tags: [strategy, product]
+  - id: product.improve-our-product
+    text: How would you improve our product?
+    ru: Как бы ты улучшил наш продукт?
+    priority: medium
+    tags: [product]
+    note: Готовится под вакансию — ресёрч их продукта до интервью.
+  - id: product.roi
+    text: How do you estimate the ROI of a project before you start it?
+    ru: Как ты оцениваешь ROI проекта до старта?
+    priority: low
+    tags: [roi]
+  - id: product.discovery
+    text: How do you find out what users actually need?
+    ru: Как ты выясняешь, что на самом деле нужно пользователям?
+    variants: [How do you check an idea before building it?]
+    priority: low
+    tags: [client, product]
+  - id: product.adoption
+    text: The feature works, but users don't adopt it. What do you do?
+    ru: Фича работает, а пользователи ею не пользуются. Что делаешь?
+    priority: low
+    tags: [client]
+  - id: product.big-customer
+    text: How do you handle a large customer pushing for features that don't fit the roadmap?
+    ru: Что делать, когда крупный клиент требует фичи, которые не вписываются в роадмап?
+    priority: low
+    tags: [product, client]
+  - id: product.build-vs-buy
+    text: Build vs. buy vs. partner — how do you decide?
+    ru: Build vs buy vs partner — как решаешь?
+    priority: low
+    tags: [strategy, architecture]
+  - id: product.metrics
+    text: Which metrics would you watch for our product, and why?
+    ru: Какие метрики ты бы смотрел для нашего продукта и почему?
+    priority: low
+    tags: [product]
+    note: Готовится под вакансию — ресёрч их продукта и бизнес-модели до интервью.
+  - id: product.metric-dropped
+    text: A key metric dropped 10% overnight. How do you investigate?
+    ru: Ключевая метрика упала на 10% за ночь. Как будешь разбираться?
+    priority: low
+    tags: [experiments]
+  - id: product.stop-feature
+    text: How do you decide to stop working on something or remove a feature?
+    ru: Как ты решаешь закрыть направление или убрать фичу?
+    priority: low
+    tags: [product, strategy]
+  - id: product.pricing
+    text: How would you price this product — per seat, usage-based or outcome-based?
+    ru: Как бы ты оценил этот продукт — за место, за использование или за результат?
+    priority: low
+    tags: [product, sales]
+  - id: product.go-to-market
+    text: Product-led or sales-led — how would you take this product to market?
+    ru: PLG или sales-led — как выводить этот продукт на рынок?
+    priority: low
+    tags: [sales]
+  - id: product.competitors
+    text: Who do you see as our main competitors, and how would you position against them?
+    ru: Кого ты считаешь нашими главными конкурентами и как бы ты позиционировал продукт против них?
+    priority: low
+    tags: [product, strategy]
+    note: Готовится под вакансию — ресёрч рынка и конкурентов до интервью.

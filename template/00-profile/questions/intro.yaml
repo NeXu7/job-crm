@@ -1,0 +1,28 @@
+# Банк вопросов к интервью, категория «intro». Редактируется в CRM (Интервью → Вопросы) и агентом.
+# answers — варианты ответа (roles — для каких треков; пусто — для любого). status: draft | ready.
+# Истории — по id из 00-profile/stories.yaml, факты — по id из банка фактов. Новые цифры — только с твоих слов.
+
+questions:
+  - id: intro.about-yourself
+    text: Tell me about yourself.
+    ru: Расскажи о себе.
+    variants: [Walk me through your background., Walk me through your resume.]
+    priority: high
+    note: Первые 90 секунд задают рамку всего разговора. Одна строка позиционирования → три опоры → почему сейчас → мост к роли. Не пересказ резюме по годам. Опора — positioning.md §2–3 и §7.
+  - id: intro.current-role
+    text: Tell me about your current or most recent role. What does the company do, and what is your part in it?
+    ru: "Расскажи про текущую или последнюю работу: чем занимается компания и какая в ней твоя роль?"
+    priority: high
+    note: За этим почти всегда идёт «почему уходишь» — держи связку.
+  - id: intro.strengths
+    text: What are your greatest strengths?
+    ru: Какие у тебя сильные стороны?
+    variants: [Why are you good at this?]
+    priority: medium
+    note: "Опора — «Интервью» → «Сильные и слабые»: две-три стороны под трек, каждая с фактом или историей. Не список прилагательных."
+  - id: intro.colleagues-describe
+    text: How would your colleagues describe you?
+    ru: Как тебя описали бы коллеги?
+    variants: [What would your last manager say about you?]
+    priority: low
+    note: Две-три черты, и у каждой — короткий пример. Лучше то, что реально говорили в обратной связи.

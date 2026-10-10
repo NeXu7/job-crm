@@ -1,0 +1,48 @@
+# Банк вопросов к интервью, категория «motivation». Редактируется в CRM (Интервью → Вопросы) и агентом.
+# answers — варианты ответа (roles — для каких треков; пусто — для любого). status: draft | ready.
+# Истории — по id из 00-profile/stories.yaml, факты — по id из банка фактов. Новые цифры — только с твоих слов.
+
+questions:
+  - id: motivation.why-leaving
+    text: Why are you leaving your current job?
+    ru: Почему уходишь с текущего места?
+    variants: [Why are you looking for a new role now?, Why did you leave your last job?]
+    priority: high
+    note: Первый вопрос почти на каждом интервью. Говори о том, что ищешь дальше, а не о том, что не устроило. Не ругай бывшего работодателя, руководителя и коллег. Опора — positioning.md §7.
+  - id: motivation.why-company
+    text: Why do you want to work here?
+    ru: Почему именно мы?
+    variants: [Why this company?, What do you know about us?]
+    priority: high
+    app_field: whyThem
+    note: Ответ — только настоящий, из «Почему они» в карточке отклика. Интервьюер быстро отличает интерес к компании от рассылки по шаблону. Нет ответа — нет отклика.
+  - id: motivation.why-hire
+    text: Why should we hire you?
+    ru: Почему мы должны взять тебя?
+    variants: [What makes you a strong fit for this role?]
+    priority: high
+    app_field: whyMe
+    note: "Ответ — из «Почему я» в карточке отклика: какие факты закрывают их главные требования."
+  - id: motivation.why-role
+    text: Why this role? What draws you to it?
+    ru: Почему эта роль?
+    priority: high
+    note: "Ответ зависит от трека: для каждого — своя причина, почему эта роль — логичный следующий шаг (positioning.md §6). Не звучи так, будто это запасной вариант."
+  - id: motivation.looking-for
+    text: What are you looking for in your next role?
+    ru: Что ищешь в следующей роли?
+    priority: medium
+    note: Опора — критерии ICP (00-profile/icp.yaml). Говори про работу и задачи, а не про условия.
+  - id: motivation.why-field
+    text: Why this field? What excites you about it right now?
+    ru: Почему эта область и что в ней тебе сейчас интересно?
+    priority: medium
+    note: Опора — тезис в positioning.md §4.
+  - id: motivation.best-environment
+    text: In what kind of environment, and with what kind of manager, do you do your best work?
+    ru: В какой среде и с каким руководителем ты работаешь лучше всего?
+    priority: low
+  - id: motivation.five-years
+    text: Where do you see yourself in five years?
+    ru: Где ты видишь себя через пять лет?
+    priority: low
