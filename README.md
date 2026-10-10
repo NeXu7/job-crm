@@ -51,7 +51,7 @@ CLI на твоей подписке.
 ## Установка
 
 ```bash
-git clone <ссылка на репозиторий> ~/job-crm   # ссылку на репозиторий тебе дал автор
+git clone https://github.com/NeXu7/job-crm.git ~/job-crm   # репозиторий приватный: нужен доступ от автора
 cd ~/job-crm
 npm install
 npx playwright install chromium          # браузер для снимков страниц и печати PDF
